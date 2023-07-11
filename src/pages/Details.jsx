@@ -31,11 +31,6 @@ function Details() {
                                 {singleProducts.images && singleProducts.images.map((img, i) => <div className='col-sm-10 offset-1 ' key={img.id}>
 
                                     <img src={img} alt="img" className='img-fluid' style={{ marginBottom: "10px" }} height={100} width={100} />
-
-
-
-
-
                                 </div>)}
                                 <h4 className='text-secondary'>{singleProducts.title}</h4>
                             </div>
