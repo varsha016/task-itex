@@ -25,6 +25,9 @@ const Appbar = () => {
                                 <a href="/dashboard" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                     Dashboard
                                 </a>
+                                <a href="/product" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    ProductAdd
+                                </a>
 
                             </div>
                         </div>
